@@ -10,9 +10,17 @@ source bin/activate
 ```
 - Install Package
 ```sh
-pip install yuzhuhwq5public==0.0.1
+pip install yuzhuhwbubbler==0.0.1
 ```
 - Use as Module
 ```py
+from yuzhuhwbubbler import bubbleSort
 
+arr = [31, 2, 11, 23, 8, 7, 11,14,20]
+ 
+bubbleSort(arr)
+ 
+print ("sorted:")
+for i in range(len(arr)):
+    print ("%d" %arr[i]),
 ```
