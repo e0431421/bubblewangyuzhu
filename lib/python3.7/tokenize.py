@@ -1,1 +1,1 @@
-/Users/applefx/anaconda3/lib/python3.7/tokenize.py
+/usr/local/Cellar/python/3.7.5/Frameworks/Python.framework/Versions/3.7/lib/python3.7/tokenize.py
