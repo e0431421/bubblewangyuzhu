@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="yuzhuhwbubbler", 
-    version="0.0.1",
+    version="0.1.0",
     author="Yuzhu Wang", 
     author_email="15151843600@163.com", 
     description="A bubbler sort package",

@@ -10,7 +10,7 @@ source bin/activate
 ```
 - Install Package
 ```sh
-pip install yuzhuhwbubbler==0.0.1
+pip install yuzhuhwbubbler==0.1.0
 ```
 - Use as Module
 ```py

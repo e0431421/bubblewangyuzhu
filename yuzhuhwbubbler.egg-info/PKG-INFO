@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: yuzhuhwbubbler
-Version: 0.0.1
+Version: 0.1.0
 Summary: A bubbler sort package
 Home-page: https://github.com/e0431421/bubblewangyuzhu
 Author: Yuzhu Wang
@@ -18,11 +18,19 @@ Description: ## Bubbler
         ```
         - Install Package
         ```sh
-        pip install yuzhuhwq5public==0.0.1
+        pip install yuzhuhwbubbler==0.1.0
         ```
         - Use as Module
         ```py
+        from yuzhuhwbubbler import bubbleSort
         
+        arr = [31, 2, 11, 23, 8, 7, 11,14,20]
+         
+        bubbleSort(arr)
+         
+        print ("sorted:")
+        for i in range(len(arr)):
+            print ("%d" %arr[i]),
         ```
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
